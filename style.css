@@ -5,15 +5,24 @@ body {
     background: linear-gradient(90deg, rgba(54, 42, 61, 1) 0%, rgba(109, 74, 128, 1) 50%, rgba(28, 43, 69, 1) 100%);
 }
 
-.nav-link{
+.navbar {
+    background-color: #1C2B45 !important;
+}
+
+.navbar-brand img{
+    max-height: 80px;
+}
+
+.nav-link {
     font-family: "Josefin Sans", sans-serif;
 }
 
-.btn{
-    background-color:#1C2B45;
+.btn {
+    background-color: #1C2B45;
     border: 1px solid #1C2B45;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #362a3d;
     border: 1px solid #362a3d;
 }
@@ -21,14 +30,23 @@ body {
 .listening {
     background: #362a3d;
     background: linear-gradient(258deg, rgba(54, 42, 61, 1) 0%, rgba(109, 74, 128, 1) 75%, rgba(28, 43, 69, 1) 100%);
-    border:#362a3d solid 1px;
+    border: #362a3d solid 1px;
 }
 
-.genre{
+.card-header,
+.genre {
     font-family: "Special Elite", system-ui;
-
 }
 
-.card-header,.card-title,.card-text{
+.card-title,
+.card-text {
     font-family: "Josefin Sans", sans-serif;
+}
+
+main .card:hover {
+    box-shadow: 0 0 25px 5px rgba(157, 78, 223, 0.6) !important;
+}
+
+main .card>img:hover {
+    filter: brightness(0.5);
 }
